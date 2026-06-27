@@ -11,7 +11,7 @@ A modern, fully responsive gym management website built with **React.js**, showc
 
 ## 🌐 Live Demo
 
-👉 **[View Live Site](https://gym-tamplate.vercel.app)**
+👉 **[View Live Site](https://gym-tamplate-git-main-momin2.vercel.app)**
 
 ---
 
