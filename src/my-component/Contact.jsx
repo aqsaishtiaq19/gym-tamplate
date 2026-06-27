@@ -20,7 +20,7 @@ function Contact() {
 
     try {
       const response = await axios.post(
-        "http://localhost:1717/api/messages",
+        "https://gym-backend-production-0ab8.up.railway.app/api/messages",
         formData
       );
 
