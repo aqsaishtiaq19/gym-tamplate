@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# 🏋️ Gym Website — Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, fully responsive gym management website built with **React.js**, showcasing services, membership plans, and a contact form connected to a live backend API.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌐 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+👉 **[View Live Site](https://gym-tamplate-git-main-momin2.vercel.app)**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚡ Modern responsive design — works on all screen sizes
+- 📋 Contact form connected to live backend API
+- 💾 Messages saved to MongoDB Atlas database
+- 🏅 Gym services showcase section
+- 💪 Membership plans display
+- 🎨 Styled Components for clean UI
+- 🚀 Deployed on Vercel with auto-deploy on push
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend framework |
+| JavaScript (ES6+) | Core logic |
+| CSS3 | Styling & animations |
+| Styled Components | Component-level styling |
+| Axios | API calls to backend |
+| Git & GitHub | Version control |
+| Vercel | Deployment & hosting |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔗 Backend API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This frontend connects to a live REST API backend:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Detail | Value |
+|---|---|
+| 🌐 Backend URL | `https://gym-backend-production-0ab8.up.railway.app` |
+| 📡 Messages Endpoint | `/api/messages` |
+| 🗄️ Database | MongoDB Atlas |
+| 🚀 Hosted on | Railway |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Getting Started
 
-## Learn More
+### Prerequisites
+- Node.js installed
+- npm or yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone the repository
+git clone https://github.com/aqsaishtiaq19/gym-tamplate.git
 
-### Code Splitting
+# Navigate to project folder
+cd gym-tamplate
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Install dependencies
+npm install
 
-### Analyzing the Bundle Size
+# Start development server
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Open [http://localhost:3000](http://localhost:3000) to view in browser.
 
-### Making a Progressive Web App
+### Environment Variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Create a `.env` file in root directory:
 
-### Advanced Configuration
+```
+REACT_APP_API_URL=https://gym-backend-production-0ab8.up.railway.app
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+gym-tamplate/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   └── index.js
+├── .env
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🔗 Related Repository
+
+⚙️ **Backend Repository** → [gym-backend](https://github.com/aqsaishtiaq19/gym-backend)
+
+🌐 **Backend Live API** → `https://gym-backend-production-0ab8.up.railway.app`
+
+---
+
+## 👩‍💻 Developer
+
+**Aqsa Ishtiaq**
+- 🌐 GitHub: [@aqsaishtiaq19](https://github.com/aqsaishtiaq19)
+- 💼 LinkedIn: [Aqsa Ishtiaq](https://www.linkedin.com/in/aqsa-ishtiaq)
+- 🏅 Certiport IT Specialist – JavaScript *(Pearson VUE, 140+ countries)*
+- 🤖 Microsoft Learn — AI Concepts for Developers *(June 2026)*
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
