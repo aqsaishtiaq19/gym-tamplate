@@ -20,7 +20,7 @@ function Contact() {
 
     try {
       const response = await axios.post(
-        "https://gym-backend-production-0ab8.up.railway.app/api/messages",
+        "https://gym-backend-nu-seven.vercel.app/api/messages",
         formData
       );
 
