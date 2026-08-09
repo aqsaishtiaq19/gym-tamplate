@@ -8,8 +8,7 @@ function Header() {
         <h1><span>Live</span>Better</h1>
           <p className='details'>Start Your Body Transformation Today</p>
          <div className='header-btns'>
-              {/* <a href="/Contact" className='header-btn'>JOIN US</a> */}
-              <Link to='./Contact' className='header-btn'><button>JOIN US</button></Link>
+              <Link to='/Contact' className='header-btn'>JOIN US</Link>
             </div>         
          </div>      
     </div>
